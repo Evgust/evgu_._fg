@@ -24,11 +24,9 @@ def solution(heads, legs):
             return i, j
     return None
 
-print(solution(22, 33))
-
 #Ex4
 
-def isprime(num):
+def is_prime(num):
     if num < 2:
         return False
     for i in range(2, int(num**0.5) + 1):
@@ -128,4 +126,3 @@ def guess_the_number_game():
             break
 
 #Ex14
-
